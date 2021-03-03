@@ -1,0 +1,95 @@
+@keyframes movePath{
+  0% { 
+    offset-distance: 0%;
+  }
+  100% { 
+    offset-distance: 100%;
+  }
+}
+
+
+@keyframes movePath_Blur{
+  0% { 
+    offset-distance: 0%;
+  }
+  100% { 
+    offset-distance: 100%;
+    
+  }
+}
+
+
+
+div {
+	position: relative;
+  margin: 1000px;
+
+}
+
+img {
+	position: absolute;
+ 
+}
+
+
+
+.Blur {
+
+offset-path: path("M2.31936 23.1351L12.241 9.74306C15.0555 5.94414 12.3437 0.560059 7.61577 0.560059V0.560059C2.97463 0.560059 0.241656 5.77064 2.88014 9.58883L12.3553 23.3004C15.184 27.394 12.254 32.9803 7.27816 32.9803V32.9803C2.20931 32.9803 -0.698084 27.208 2.31936 23.1351Z"); /* this is a square path */
+  offset-rotate: 0deg;
+    animation-name: movePath_Blur;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-delay: .2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    
+}
+
+.Blur2 {
+	offset-path: path("M2.31936 23.1351L12.241 9.74306C15.0555 5.94414 12.3437 0.560059 7.61577 0.560059V0.560059C2.97463 0.560059 0.241656 5.77064 2.88014 9.58883L12.3553 23.3004C15.184 27.394 12.254 32.9803 7.27816 32.9803V32.9803C2.20931 32.9803 -0.698084 27.208 2.31936 23.1351Z"); /* this is a square path */
+  offset-rotate: 0deg;
+    animation-name: movePath;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: .6s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    
+}
+
+
+.Stroke {
+	
+	offset-path: path("M2.31936 23.1351L12.241 9.74306C15.0555 5.94414 12.3437 0.560059 7.61577 0.560059V0.560059C2.97463 0.560059 0.241656 5.77064 2.88014 9.58883L12.3553 23.3004C15.184 27.394 12.254 32.9803 7.27816 32.9803V32.9803C2.20931 32.9803 -0.698084 27.208 2.31936 23.1351Z"); /* this is a square path */
+  offset-rotate: 0deg;
+    animation-name: movePath;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-delay: .3s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    
+}
+
+.Linear {
+
+	offset-path: path("M2.31936 23.1351L12.241 9.74306C15.0555 5.94414 12.3437 0.560059 7.61577 0.560059V0.560059C2.97463 0.560059 0.241656 5.77064 2.88014 9.58883L12.3553 23.3004C15.184 27.394 12.254 32.9803 7.27816 32.9803V32.9803C2.20931 32.9803 -0.698084 27.208 2.31936 23.1351Z"); /* this is a square path */
+  offset-rotate: 0deg;
+    animation-name: movePath;
+    animation-duration: 9s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    
+
+}
